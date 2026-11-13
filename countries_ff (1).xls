@@ -1,0 +1,26 @@
+name,area,region,subregion,borders,currencies,languages
+Abkhazia,8665,Asia,Western Asia,"GEO, RUS",RUB,", "
+Afghanistan,652230,Asia,Southern Asia,"IRN, PAK, TKM, UZB, TJK, CHN",AFN,", , "
+Albania,28748,Europe,Southeast Europe,"MNE, GRC, MKD, UNK",ALL,
+Algeria,2381741,Africa,Northern Africa,"TUN, LBY, NER, ESH, MRT, MLI, MAR",DZD,
+American Samoa,199,Oceania,Polynesia,None,USD,", "
+Andorra,468,Europe,Southern Europe,"FRA, ESP",EUR,
+Angola,1246700,Africa,Middle Africa,"COG, COD, ZMB, NAM",AOA,
+Anguilla,91,Americas,Caribbean,None,XCD,
+Antarctica,14000000,Antarctic,,None,None,None
+Antigua and Barbuda,442,Americas,Caribbean,None,XCD,
+Argentina,2780400,Americas,South America,"BOL, BRA, CHL, PRY, URY",ARS,", "
+Armenia,29743,Asia,Western Asia,"AZE, GEO, IRN, TUR",AMD,
+Aruba,180,Americas,Caribbean,None,AWG,", "
+Australia,7692024,Oceania,Australia and New Zealand,None,AUD,
+Austria,83871,Europe,Central Europe,"CZE, DEU, HUN, ITA, LIE, SVK, SVN, CHE",EUR,
+Azerbaijan,86600,Asia,Western Asia,"ARM, GEO, IRN, RUS, TUR",AZN,
+Bahamas,13943,Americas,Caribbean,None,"BSD, USD",
+Bahrain,765,Asia,Western Asia,None,BHD,
+Bangladesh,147570,Asia,Southern Asia,"MMR, IND",BDT,
+Barbados,430,Americas,Caribbean,None,BBD,
+Belarus,207600,Europe,Eastern Europe,"LVA, LTU, POL, RUS, UKR",BYN,", "
+Belgium,30528,Europe,Western Europe,"FRA, DEU, LUX, NLD",EUR,", , "
+Belize,22966,Americas,Central America,"GTM, MEX",BZD,", , "
+Benin,112622,Africa,Western Africa,"BFA, NER, NGA, TGO",XOF,
+Bermuda,54,Americas,North America,None,BMD,
