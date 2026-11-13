@@ -1,0 +1,26 @@
+name,area,region,subregion,borders,currencies,languages,area_outlier
+Abkhazia,8665.0,Asia,Western Asia,"GEO, RUS",RUB,None,False
+Afghanistan,652230.0,Asia,Southern Asia,"IRN, PAK, TKM, UZB, TJK, CHN",AFN,None,True
+Albania,28748.0,Europe,Southeast Europe,"MNE, GRC, MKD, UNK",ALL,None,False
+Algeria,2381741.0,Africa,Northern Africa,"TUN, LBY, NER, ESH, MRT, MLI, MAR",DZD,None,True
+American Samoa,199.0,Oceania,Polynesia,None,USD,None,False
+Andorra,468.0,Europe,Southern Europe,"FRA, ESP",EUR,None,False
+Angola,1246700.0,Africa,Middle Africa,"COG, COD, ZMB, NAM",AOA,None,True
+Anguilla,91.0,Americas,Caribbean,None,XCD,None,False
+Antarctica,14000000.0,Antarctic,Unknown,None,None,None,True
+Antigua and Barbuda,442.0,Americas,Caribbean,None,XCD,None,False
+Argentina,2780400.0,Americas,South America,"BOL, BRA, CHL, PRY, URY",ARS,None,True
+Armenia,29743.0,Asia,Western Asia,"AZE, GEO, IRN, TUR",AMD,None,False
+Aruba,180.0,Americas,Caribbean,None,AWG,None,False
+Australia,7692024.0,Oceania,Australia and New Zealand,None,AUD,None,True
+Austria,83871.0,Europe,Central Europe,"CZE, DEU, HUN, ITA, LIE, SVK, SVN, CHE",EUR,None,False
+Azerbaijan,86600.0,Asia,Western Asia,"ARM, GEO, IRN, RUS, TUR",AZN,None,False
+Bahamas,13943.0,Americas,Caribbean,None,"BSD, USD",None,False
+Bahrain,765.0,Asia,Western Asia,None,BHD,None,False
+Bangladesh,147570.0,Asia,Southern Asia,"MMR, IND",BDT,None,False
+Barbados,430.0,Americas,Caribbean,None,BBD,None,False
+Belarus,207600.0,Europe,Eastern Europe,"LVA, LTU, POL, RUS, UKR",BYN,None,False
+Belgium,30528.0,Europe,Western Europe,"FRA, DEU, LUX, NLD",EUR,None,False
+Belize,22966.0,Americas,Central America,"GTM, MEX",BZD,None,False
+Benin,112622.0,Africa,Western Africa,"BFA, NER, NGA, TGO",XOF,None,False
+Bermuda,54.0,Americas,North America,None,BMD,None,False
