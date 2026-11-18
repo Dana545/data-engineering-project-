@@ -1,0 +1,47 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+#bar chart for the count of countires per region
+(sns.countplot(x=df['region']))
+plt.title("Number of countries per region")
+plt.xlabel("Region")
+plt.ylabel("Number of countries")
+plt.show()
+print("This bar chart helps us  identify which region has the highest and lowest number of countries in our dataset.Based on the results the Americas has the highest number of countries")
+#histogram showing the distribution of country areas
+sns.histplot(x=df['area'],bins=10,kde=False)
+plt.title("distribution od country areas")
+plt.xlabel("Area * 10^7")
+plt.ylabel("Number of countries")
+plt.show()
+print("This histogram helps us identify whether most countries have small, medium, or large areas and whether the distribution is skewed. Based on the results large countries such as Australia and Algeria have created a right skewed distribution.")
+#box plot area distribution across regions
+sns.boxplot(x=df["region"], y=df["area"])
+plt.title("area distribution across regions")
+plt.xlabel("Region")
+plt.ylabel("Area")
+plt.show()
+print("This Boxplot helps us compare which regions has larger or smaller countries and which regions have more variaty in country areas,aswell as identifying regions containing unusually large or small countries.Based on the results the Antarctic has the largest area, Oceania has the widest range of sizes, and most other regions consist of much smaller areas with a few outliers")
+#distribution of country areas
+plt.figure(figsize=(12, 6))#12 inches wide , 6 inches tall 
+df["area"].plot.kde() # kde() shows distribution 
+plt.axvline(x=df["area"].mean(), color='k', linestyle='--')# ads a vertical line representing the mean of country areas
+plt.axvline(x=df["area"].median(), color='r', linestyle='--')
+plt.title("distribution of country areas")
+plt.xlabel("Area * 10^7")
+plt.ylabel("Density")
+plt.show()
+print("This density plot helps us identify where country areas are concentrated and compare the mean and median.Based on the results ,country areas are heavily right-skewed,and most countries are small.")
+# scatter plot for the relationship between a country's area and the number of countries bordering it
+border_count = []
+for borders in df['borders']:#We convert the borders lists into numerical values representing the number of bordering countries so we can analyze them using a scatter plot
+    if borders is None:
+        border_count.append(0)
+    else:
+        border_count.append(len(borders)) 
+df['border_count'] = border_count
+sns.scatterplot( y=df['border_count'], x=df['area'])
+plt.title("country area vs. num of bordering countries")
+plt.xlabel("Area * 10^7")
+plt.ylabel("Number of bordering countries")
+plt.show()
+print("This scatter plot helps us investigate whether larger countries tend to have more bordering countries.Based on the results,the largest areas have very few borders")
